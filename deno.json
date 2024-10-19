@@ -32,6 +32,7 @@
     "preact/": "https://esm.sh/preact@10.22.0/",
     "react": "https://esm.sh/v135/preact@10.24.3/compat",
     "react-dom": "https://esm.sh/v135/preact@10.24.3/compat",
+    "sonner": "https://esm.sh/v135/*sonner@1.5.0",
     "tailwindcss/": "npm:/tailwindcss@3.4.1/",
     "tailwindcss/plugin": "npm:/tailwindcss@3.4.1/plugin.js",
     "tailwindcss": "npm:tailwindcss@3.4.1"
