@@ -14,22 +14,17 @@
   },
   "lint": {
     "rules": {
-      "tags": [
-        "fresh",
-        "recommended"
-      ]
+      "tags": ["fresh", "recommended"]
     }
   },
-  "exclude": [
-    "**/_fresh/*"
-  ],
+  "exclude": ["**/_fresh/*"],
   "imports": {
     "$std/": "https://deno.land/std@0.216.0/",
     "$fresh/": "https://deno.land/x/fresh@1.7.3/",
     "@preact/signals-core": "https://esm.sh/*@preact/signals-core@1.5.1",
     "@preact/signals": "https://esm.sh/*@preact/signals@1.2.2",
-    "preact": "https://esm.sh/preact@10.22.0",
-    "preact/": "https://esm.sh/preact@10.22.0/",
+    "preact": "https://esm.sh/preact@10.24.3",
+    "preact/": "https://esm.sh/preact@10.24.3/",
     "react": "https://esm.sh/v135/preact@10.24.3/compat",
     "react-dom": "https://esm.sh/v135/preact@10.24.3/compat",
     "sonner": "https://esm.sh/v135/*sonner@1.5.0",
