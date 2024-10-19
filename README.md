@@ -1,13 +1,30 @@
-# Fresh project
+# Fresh Sonner
 
-Your new Fresh project is ready to go. You can follow the Fresh "Getting
-Started" guide here: https://fresh.deno.dev/docs/getting-started
+To use Sonner (and other React first libraries), we can use [preact/compat](https://preactjs.com/guide/v10/switching-to-preact/).
 
 ### Usage
 
-Make sure to install Deno: https://deno.land/manual/getting_started/installation
+Initialise [esm.sh](https://esm.sh/)
 
-Then start the project:
+```
+deno run -A -r https://esm.sh init
+```
+
+Then add react and react-dom aliased by preact/compat:
+
+```
+deno task esm:add react:preact/compat
+```
+
+```
+deno task esm:add react-dom:preact/compat
+```
+
+Add the required library, in this case, [sonner](https://sonner.emilkowal.ski/)
+
+```
+deno task esm:add sonner
+```
 
 ```
 deno task start
